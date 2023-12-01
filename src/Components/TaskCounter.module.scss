@@ -1,0 +1,40 @@
+.divCounterTasks {
+    width: 100%;
+    max-width: 736px;
+    margin: 64px auto 24px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .createdTasks {
+        color: var(--blue-300);
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        span {
+            width: 24px;
+            height: auto;
+            background: var(--gray-400);
+            color: var(--gray-200);
+            padding: 2px 7px;
+            border-radius: 999px;
+        }
+    }
+
+    .finishedTasks {
+        color: var(--purple-300);
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        span {
+            background: var(--gray-400);
+            color: var(--gray-200);
+            padding: 2px 8px;
+            border-radius: 999px;
+        }
+    }
+}
