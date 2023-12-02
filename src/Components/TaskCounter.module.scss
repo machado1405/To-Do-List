@@ -1,10 +1,17 @@
 .divCounterTasks {
     width: 100%;
     max-width: 736px;
-    margin: 64px auto 24px auto;
-    padding: 0 20px;
+    margin: 4rem auto 1.5rem auto;
+    padding: 0 1.25rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media(max-width: 474px) {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.625rem;
+    }
 
     .createdTasks {
         color: var(--blue-300);
