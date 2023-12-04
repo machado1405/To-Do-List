@@ -34,6 +34,12 @@
         line-height: 1.4;
     }
 
+    .textFinished {
+        text-decoration: line-through;
+        font-size: 0.875rem;
+        color: var(--gray-300);
+    }
+
     button {
         background: transparent;
         border: none;
